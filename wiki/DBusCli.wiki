@@ -45,6 +45,7 @@ $ dbus org.gnome.feed.Reader /org/gnome/feed/Reader org.gnome.feed.Reader.SetOnl
 or faster
 
 $ dbus org.gnome.feed.Reader /org/gnome/feed/Reader SetOnline %False
+
 Note the '%' before the False. That mean that following is not a string but a python expression that will be evaluated. That's right, dbus-cli don't (yet) convert arguments according to introspected signature and you have to give the right type.
 
 = Known problems =
