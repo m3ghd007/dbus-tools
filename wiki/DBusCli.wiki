@@ -70,3 +70,6 @@ $ dbus -ye org.freedesktop.Hal /org/freedesktop/Hal/devices/DVD_ROM_SBW242B Intr
 ...
 
 dbus.DBusException: org.freedesktop.Hal.NoSuchDevice: No device with id /org/freedesktop/Hal/devices/DVD_ROM_SBW242B
+
+= ZSH completion =
+For those who have a good shell, a ZSH completion script is also included
